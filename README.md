@@ -10,6 +10,6 @@ Projeto em **fase de especificação**: ainda não há código da aplicação.
 
 O próximo passo é a Fase 0: responder as decisões bloqueadoras listadas na seção 30 do masterplan.
 
-## Outros projetos neste repositório
+## Projetos relacionados
 
 - O protótipo de cortes de culto foi movido para [atitudecreative/CortesIBA](https://github.com/atitudecreative/CortesIBA).
