@@ -12,4 +12,4 @@ O próximo passo é a Fase 0: responder as decisões bloqueadoras listadas na se
 
 ## Outros projetos neste repositório
 
-- [`cortes/`](cortes/): protótipo de cortes de culto (vídeos verticais com legenda a partir do culto no YouTube ou de upload). Ver [`cortes/README.md`](cortes/README.md).
+- O protótipo de cortes de culto foi movido para [atitudecreative/CortesIBA](https://github.com/atitudecreative/CortesIBA).
