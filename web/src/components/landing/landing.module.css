@@ -607,13 +607,14 @@ a.card:hover {
     align-items: flex-start;
     gap: 64px;
   }
+  /* 550 : 730 (frame 1440) — a base é calculada sem o padding do formulário */
   .contactCopy {
-    flex: 550 1 0;
+    flex: 0 0 calc((100% - 64px) * 550 / 1280);
     min-width: 0;
     gap: 20px;
   }
   .contactForm {
-    flex: 730 1 0;
+    flex: 1 1 0;
     min-width: 0;
   }
 }

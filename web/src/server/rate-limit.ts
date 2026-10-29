@@ -20,6 +20,8 @@ export async function consumeRateLimit(key: string, rule: Rule): Promise<{ allow
 }
 
 export async function enforceRateLimit(key: string, rule: Rule) {
+  // Limpeza ocasional de janelas antigas, sem precisar de tarefa agendada.
+  if (Math.random() < 0.01) await purgeExpiredRateLimits()
   const result = await consumeRateLimit(key, rule)
   if (!result.allowed) throw errors.rateLimited(result.retryAfter)
 }

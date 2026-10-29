@@ -1,11 +1,10 @@
 # Atitude Commerce
 
-Loja on-line unificada para os produtos dos ministérios da Igreja.
+Repositório dos projetos digitais da Igreja.
 
-Projeto em **fase de especificação**: ainda não há código da aplicação.
+## Projetos
 
-## Documentação
-
-- [`docs/MASTERPLAN_ECOMMERCE_MINISTERIOS.md`](docs/MASTERPLAN_ECOMMERCE_MINISTERIOS.md) é a fonte central de verdade do projeto. Reúne arquitetura, regras de negócio, modelo de dados, interfaces, integrações, custos, plano de implementação, testes e decisões pendentes.
-
-O próximo passo é a Fase 0: responder as decisões bloqueadoras listadas na seção 30 do masterplan.
+| Projeto | Diretório | Estado |
+|---|---|---|
+| LP da campanha **Atitude que Constrói** (Nov 2026) | [`web/`](web) | V1 implementada e testada. Falta publicar. Veja [`docs/LP_ATITUDE_QUE_CONSTROI.md`](docs/LP_ATITUDE_QUE_CONSTROI.md) |
+| Loja unificada dos ministérios | — | Em especificação: [`docs/MASTERPLAN_ECOMMERCE_MINISTERIOS.md`](docs/MASTERPLAN_ECOMMERCE_MINISTERIOS.md). O próximo passo é responder as decisões da seção 30 |
